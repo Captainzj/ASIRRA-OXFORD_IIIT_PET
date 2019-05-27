@@ -87,11 +87,9 @@ def split_val():
             os.symlink('./train/' + filename, './DogsVSCats/train/dog/' + filename)
 
 
-
-
 if __name__ == '__main__':
 
-    archive_classname()
-    # split_val()
+    # archive_classname()
+    split_val()
 
     pass

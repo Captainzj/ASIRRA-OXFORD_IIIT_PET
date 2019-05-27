@@ -24,7 +24,7 @@ def visualize_sample(env_name):
                     img_name = img_name+'_'+part_name
 
             if images_so_far == 1000:
-                break# visualize_sample('DenseNet-161-prediction')
+                break # visualize_sample('DenseNet-161-prediction')
 
 
             viz.image(torch.from_numpy(np.asarray(

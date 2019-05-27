@@ -35,9 +35,9 @@ from visdom import Visdom
 from SRIRRA.config import opt
 import argparse
 from PIL import Image
-from SRIRRA.data.dataset import DogCat
-from SRIRRA.utils.custom_plot import plot_acc_loss
-from SRIRRA.utils.visualize import Visualizer
+from ASIRRA.data.dataset import DogCat
+from ASIRRA.utils.custom_plot import plot_acc_loss
+from ASIRRA.utils.visualize import Visualizer
 
 parser = argparse.ArgumentParser(description='DogsVSCats_densenet')
 parser.add_argument('--model', default='densenet161', type=str, metavar='MODEL',
